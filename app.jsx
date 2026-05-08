@@ -1,5 +1,5 @@
-import { useState, useEffect, useCallback } from "react";
-import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer, ReferenceLine } from "recharts";
+const { useState, useEffect, useCallback } = React;
+const { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer, ReferenceLine } = Recharts;
 
 const START_DATE = "2026-05-08";
 const START_WEIGHT = 63;
