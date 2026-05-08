@@ -609,3 +609,10 @@ export default function App() {
     </div>
   );
 }
+// AT THE VERY END OF YOUR app.jsx
+const rootElement = document.getElementById('root');
+if (rootElement) {
+  const root = ReactDOM.createRoot(rootElement);
+  // Replace "App" with your main function name if it is different
+  root.render(<App />); 
+}
