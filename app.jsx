@@ -1,4 +1,3 @@
-import { useState, useEffect, useCallback } from "react";
 import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer, ReferenceLine } from "recharts";
 
 const START_DATE = "2026-05-08";
